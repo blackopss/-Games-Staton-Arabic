@@ -13,7 +13,7 @@ client.on('ready', () => {
     console.log(`Logged in as ${client.user.tag}!`);
     console.log(`in ${client.guilds.size} servers `)
     console.log(`[Users] ${client.users.size}`)
-	client.user.setGame(`!help |Games Staton Arabic  `)
+	client.user.setGame(`g!help |Games Staton Arabic  `)
     client.user.setStatus("dnd")
 });
 
@@ -255,7 +255,7 @@ if (message.content.startsWith(prefix + 'help')) {
  .addField("**g!stop :musical_note:**","**لـ اطفاء لاغنيه**")
  .addField("**g!skip :musical_note:**","**لـ نخطي لاغنيه**")
  .setFooter("** ❇نبرى ذمتنا ❇: في أي أستعمال خاطئ للهذا الكوماند**")
- .addField("**by > <@431150885549113344> **","****")
+ .addField("**by » <@431150885549113344> **","****")
 .setColor('RANDOM')
 	message.channel.sendEmbed(embed).then(m => m.delete(15000));
 
