@@ -7,13 +7,13 @@ const getYoutubeID = require('get-youtube-id');
 const fetchVideoInfo = require('youtube-info');
 
 const yt_api_key = "AIzaSyDeoIH0u1e72AtfpwSKKOSy3IPp2UHzqi4";
-const prefix = 'g!';
+const prefix = 'g+';
 const discord_token = "NDIyMDM3NzQwNTkxMzgyNTI4.DYV8zA.6vBJjF7Op9T_bH_YOwRMXqwh9vc";
 client.on('ready', () => {
     console.log(`Logged in as ${client.user.tag}!`);
     console.log(`in ${client.guilds.size} servers `)
     console.log(`[Users] ${client.users.size}`)
-	client.user.setGame(`g!help |Games Staton Arabic  `)
+	client.user.setGame(`g+help |Games Staton Arabic  `)
     client.user.setStatus("dnd")
 });
 
