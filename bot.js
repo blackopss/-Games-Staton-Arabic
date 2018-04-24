@@ -248,13 +248,14 @@ if (message.content.startsWith(prefix + 'help')) {
 	if(!message.channel.guild) return message.reply('**هذا الأمر للسيرفرات فقط**').then(m => m.delete(300));
 	let embed = new Discord.RichEmbed()
     .setAuthor(`${message.author.tag}`, message.author.avatarURL)
-.setThumbnail("https://cdn2.iconfinder.com/data/icons/circle-icons-1/64/music-128.png")    
+.setThumbnail("https://yt3.ggpht.com/pHwZj3tkgC3SJFbuqebBoT7WtVcIwAijEmcbe9VDCauv9ZlG6uS2zjvZQUSO7SfFqa3xjYqGp_L4QbM7=s900-mo-c-c0xffffffff-rj-k-no")    
  .addField("**:musical_note:  اوامر الميوزك**","** **")
- .addField("**!play :musical_note: **","**لـ تشغيل لاغنيه**")
- .addField("**!vol :musical_note:**","**لرفع صوت لاغنيه**")
- .addField("**!stop :musical_note:**","**لـ اطفاء لاغنيه**")
- .addField("**!skip :musical_note:**","**لـ نخطي لاغنيه**")
+ .addField("**g!play :musical_note: **","**لـ تشغيل لاغنيه**")
+ .addField("**g!vol :musical_note:**","**لرفع صوت لاغنيه**")
+ .addField("**g!stop :musical_note:**","**لـ اطفاء لاغنيه**")
+ .addField("**g!skip :musical_note:**","**لـ نخطي لاغنيه**")
  .setFooter("** ❇نبرى ذمتنا ❇: في أي أستعمال خاطئ للهذا الكوماند**")
+ .addField("**by > <@431150885549113344> **","****")
 .setColor('RANDOM')
 	message.channel.sendEmbed(embed).then(m => m.delete(15000));
 
