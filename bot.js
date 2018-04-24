@@ -255,7 +255,7 @@ if (message.content.startsWith(prefix + 'help')) {
  .addField("**g!stop :musical_note:**","**لـ اطفاء لاغنيه**")
  .addField("**g!skip :musical_note:**","**لـ نخطي لاغنيه**")
  .setFooter("** ❇نبرى ذمتنا ❇: في أي أستعمال خاطئ للهذا الكوماند**")
- .addField("**by » <@431150885549113344> **","****")
+ .addField("** مبرمج البوت :wrench: **","**by™ » <@431150885549113344>  **")
 .setColor('RANDOM')
 	message.channel.sendEmbed(embed).then(m => m.delete(15000));
 
